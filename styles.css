@@ -11,28 +11,25 @@
     transition: 0.5s;
 }
 
-.active, .accordion:hover {
-    background-color: #607D8B;
-}
 
 .accordion:after {
     content: '\002B';
-    color: #fff;
+    color: rgb(243, 108, 108);
   font-size: 18px;
     font-weight: bold;
     float: right;
     margin-left: 5px;
 }
 
-.active:after {
-    content: "\2212";
-}
 
 .panel {
-    padding: 0 18px;
+    padding: 0 16px;
+    font-size: 18px;
+    width: 48%;
   color: #212121;
-    background-color: #fff;
+    background-color: rgb(235, 97, 97);
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.3s ease-out;
 }
+
